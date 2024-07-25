@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Budget Tracker</title>
+    <link rel="stylesheet" href="s1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Budget Tracker</h1>
+        
+        <!-- Income Input Form -->
+        <form id="income-form">
+            <input type="number" id="income-amount" placeholder="Enter Income" required>
+            <button type="submit">Set Income</button>
+        </form>
+
+        <!-- Transaction Input Form -->
+        <form id="transaction-form">
+            <input type="text" id="description" placeholder="Description" required>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <select id="category">
+                <option value="Food">Food</option>
+                <option value="Rent">Rent</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Other">Other</option>
+            </select>
+            <button type="submit">Add Expense</button>
+        </form>
+        
+        <!-- Reset Button -->
+        <button id="reset-button">Reset</button>
+
+        <!-- Summary Section -->
+        <div class="summary">
+            <h3>Balance: ₹<span id="balance">0.00</span></h3>
+            <h3>Income: ₹<span id="income">0.00</span></h3>
+            <h3>Expenses: ₹<span id="expenses">0.00</span></h3>
+        </div>
+
+        <!-- Transaction List -->
+        <div class="filter">
+            <label for="category-filter">Filter by Category:</label>
+            <select id="category-filter">
+                <option value="">All Categories</option>
+                <option value="Food">Food</option>
+                <option value="Rent">Rent</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <ul id="transaction-list"></ul>
+    </div>
+    <script src="s1.js"></script>
+</body>
+</html>

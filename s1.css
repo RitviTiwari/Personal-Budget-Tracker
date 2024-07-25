@@ -1,0 +1,155 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #fbc2eb, #a6c0fe); /* Gradient background */
+    display: flex; /* Center the container horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px rgb(152, 149, 149);
+    margin: 20px auto;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+/* Form styling */
+form {
+    margin-bottom: 20px;
+}
+
+form input, form select, form button {
+    margin: 10px 0;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    width: calc(100% - 24px);
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+form input:focus, form select:focus, form button:focus {
+    border-color: #0037ff;
+    outline: none;
+}
+
+/* Button styling */
+form button {
+    background-color: #124cec;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Reset button styling */
+button#reset-button {
+    background-color: #e60f0f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 6px;
+    margin-left: 230px;
+    width: 20%;
+    height: 30px;
+    font-size: 1em;
+    align-items: center;
+
+}
+
+button#reset-button:hover {
+    background-color: #b72938;
+}
+
+/* Summary section styling */
+.summary {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.summary h2, .summary h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Filter section styling */
+.filter {
+    margin-bottom: 20px;
+}
+
+.filter label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.filter select {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 1em;
+}
+
+/* Transaction list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+li.expense {
+    color: #d9534f; /* Red color for expenses */
+}
+
+/* Button inside transactions */
+button.edit-btn, button.delete-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+button.edit-btn:hover {
+    color: #0056b3;
+}
+
+button.delete-btn {
+    color: #dc3545;
+}
+
+button.delete-btn:hover {
+    color: #c82333;
+}
