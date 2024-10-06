@@ -31,4 +31,4 @@ The Personal Budget Tracker is a web application designed to help users manage t
 -Refresh the page to see saved data from local storage.
 
 ## Screenshots:
-Here are some screenshots of the Personal Budget Tracker interface:https://github.com/RitviTiwari/Personal-Budget-Tracker/blob/main/_C__Users_tiwar_OneDrive_Desktop_personal%2520budget%2520tracker%2520project_i1.html.png
+Here are some screenshots of the Personal Budget Tracker interface:https://github.com/RitviTiwari/Personal-Budget-Tracker/blob/main/photo
