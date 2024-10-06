@@ -23,9 +23,12 @@ The Personal Budget Tracker is a web application designed to help users manage t
 
 ## Usage:
 -Input your income in the designated field.
+
 -Add expenses by specifying the amount and category.
+
 -View the remaining balance after expenses are deducted.
+
 -Refresh the page to see saved data from local storage.
 
 ## Screenshots:
-Here are some screenshots of the Personal Budget Tracker interface:
+Here are some screenshots of the Personal Budget Tracker interface:https://github.com/RitviTiwari/Personal-Budget-Tracker/blob/main/_C__Users_tiwar_OneDrive_Desktop_personal%2520budget%2520tracker%2520project_i1.html.png
